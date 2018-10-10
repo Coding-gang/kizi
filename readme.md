@@ -41,12 +41,27 @@ after, Node JS, Express, Ejs
   + 레벨테스트 문답 해석, 전체적인 워크플로우, 태그 작성해보기, CSS 사용해보기, 간단한 레이아웃 짜보기
 
     + 숙제= 레이아웃 10개 만들어보기, HTML 태그 암기
+![kakaotalk_20181007_205805401](https://user-images.githubusercontent.com/33567964/46741445-ff6e6b80-ccdf-11e8-9402-ea6664b406af.jpg)
+
 
 + 2주차
   + HTML 태그 암기 시험, W3C HTML 태그 훑어보기, CSS 속성, 
   + CSS 레벨테스트 해석, CSS레이아웃 짠거 분석하며 반응형 레이아웃에 대한 이해 , CSS이용하여 간단한 페이지 코딩해보기,
 
-    + 숙제= 간단한 반응형 페이지 코딩, CSS속성 암기, HTML 태그 속성사용해서 페이지 만들어보기
+    + 숙제= 간단한 반응형 페이지 코딩[와이어프레임], CSS속성 암기, HTML 태그 속성사용해서 페이지 만들어보기
+
+
+![0373ee41519dcb8115](https://user-images.githubusercontent.com/33567964/46741285-aa325a00-ccdf-11e8-8e29-ed6a6463d26b.jpg)
+
+![017b8341519dcb810d](https://user-images.githubusercontent.com/33567964/46741331-c33b0b00-ccdf-11e8-9a8d-bb8de0b0e73d.jpg)
+
+![017c9141519dcb830b](https://user-images.githubusercontent.com/33567964/46741360-cfbf6380-ccdf-11e8-9c59-7d067e6653fe.jpg)
+
+![27662e41519dcb8524](https://user-images.githubusercontent.com/33567964/46741395-df3eac80-ccdf-11e8-8a54-a1dc7dd5e8c3.jpg)
+
+![21197b4853a8d6633a](https://user-images.githubusercontent.com/33567964/46741539-32186400-cce0-11e8-8a4d-045e8c85a0fd.jpg)
+
+
 
 + 3주차
   + .
