@@ -41,7 +41,13 @@ after, Node JS, Express, Ejs
   + 레벨테스트 문답 해석, 전체적인 워크플로우, 태그 작성해보기, CSS 사용해보기, 간단한 레이아웃 짜보기
 
     + 숙제= 레이아웃 10개 만들어보기, HTML 태그 암기
+
+  <hr>
+
 ![345613451634561](https://user-images.githubusercontent.com/33567964/46743462-14e59480-cce4-11e8-8ef6-a4d31b087d7c.png)
+
+<hr>
+
 
 
 + 2주차
@@ -76,11 +82,12 @@ after, Node JS, Express, Ejs
 
 + 3주차
   + CSS시험, W3C Css 훑어보기, 애니메이션 제작, CSS를 이용한 재미난 코딩, 각 프로퍼티들에 대한 이해.
-  +    + 숙제=
+  + .
+    + 숙제=
 
 + 4주차
-  + .
-  +
+  + npm 이용하여 scss 붙혀보기, scss의 기본 문법, scss 이용하여 간단한 코딩. scss 파일 스트럭쳐
+  + scss 이용하여 반응형 홈페이지 만들어보기, 배웠던 HTML속성 이용하여 반응형 홈페이지 만들기. 같이 HTML리팩토링, SCSS 분석하기
     + 숙제=
 
 ## Installation
