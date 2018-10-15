@@ -120,6 +120,114 @@ p { font: 12px/30px; }
 p.bar { color: red; }
 ```
 
+#{}를 이용해서 코드의 어디든지 변수 값을 넣을 수 있습니다.
+```
+$family: unquote("Droid+Sans");
+@import url("http://fonts.googleapis.com/css?family=#{$family}");
+```
+```
+@import url("http://fonts.googleapis.com/css?family=Droid+Sans");
+```
+Sass의 내장 함수 unquote()는 문자에서 따옴표를 제거합니다.
+
+
+## 변수 유효범위(Variable Scope)
+변수는 사용 가능한 유효범위가 있습니다.
+선언된 블록({}) 내에서만 유효범위를 가집니다.
+
+변수 $color는 .box1의 블록 안에서 설정되었기 때문에, 블록 밖의 .box2에서는 사용할 수 없습니다.
+```
+.box1 {
+  $color: #111;
+  background: $color;
+}
+// Error
+.box2 {
+  background: $color;
+}
+```
+
+## @at-root (중첩 벗어나기)
+중첩에서 벗어나고 싶을 때 @at-root 키워드를 사용합니다.
+중첩 안에서 생성하되 중첩 밖에서 사용해야 경우에 유용합니다.
+
+SCSS:
+```
+.list {
+  $w: 100px;
+  $h: 50px;
+  li {
+    width: $w;
+    height: $h;
+  }
+  @at-root .box {
+    width: $w;
+    height: $h;
+  }
+}
+```
+Compiled to:
+```
+.list li {
+  width: 100px;
+  height: 50px;
+}
+.box {
+  width: 100px;
+  height: 50px;
+}
+```
+
+아래 예제 처럼 .list 안에 있는 특정 변수를 범위 밖에서 사용할 수 없기 때문에, 위 예제 처럼 @at-root 키워드를 사용해야 합니다.(변수는 아래에서 설명합니다)
+```
+.list {
+  $w: 100px;
+  $h: 50px;
+  li {
+    width: $w;
+    height: $h;
+  }
+}
+
+// Error
+.box {
+  width: $w;
+  height: $h;
+}
+```
+## 중첩된 속성
+font-, margin- 등과 같이 동일한 네임 스페이스를 가지는 속성들을 다음과 같이 사용할 수 있습니다.
+
+SCSS:
+```
+.box {
+  font: {
+    weight: bold;
+    size: 10px;
+    family: sans-serif;
+  };
+  margin: {
+    top: 10px;
+    left: 20px;
+  };
+  padding: {
+    bottom: 40px;
+    right: 30px;
+  };
+}
+```
+Compiled to:
+```
+.box {
+  font-weight: bold;
+  font-size: 10px;
+  font-family: sans-serif;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding-bottom: 40px;
+  padding-right: 30px;
+}
+```
 ## 임포트
 @import 지시어를 이용해서 다른 css 파일을 임포트할 수 있다. 사실 이 기능은 css의 원래 기능이다. 대신 css 파일이 아닌 scss, sass 파일을 임포트할 수 있다.
 
