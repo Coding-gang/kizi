@@ -368,6 +368,31 @@ $gutter-width: 10px;
 }
 code { color: text-color(200);
 ```
+
+Sass의 @if 조건문에서 사용되는 논리(Boolean) 연산에는 ‘그리고’,’ 또는’, ‘부정’이 있습니다.
+자바스크립트 문법에 익숙하다면 &&, ||, !와 같은 기능으로 생각하면 됩니다.
+
+종류	설명 <br>
+and	그리고 <br>
+or	또는 <br>
+not	부정(반대) <br>
+간단한 예제를 확인하고, 더 자세한 내용은 조건문에서 살펴보겠습니다.
+
+SCSS:
+```
+$width: 90px;
+div {
+  @if not ($width > 100px) {
+    height: 300px;
+  }
+}
+```
+Compiled to:
+```
+div {
+  height: 300px;
+}
+```
 ## 반복문
 반복문은 크게 3가지로 나뉜다.
 
