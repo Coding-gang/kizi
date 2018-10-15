@@ -280,7 +280,31 @@
   <p contenteditable=true>
     hello
   </p>
+  
+  <!-- 
+    고려해야할 주요한 문제는 인터넷 익스플로러의 지원과 성능입니다. 인터넷 익스플로러11+ 은 표준을 지원하지만, 이전 버전들은 dataset을 지원하지 않습니다. IE 10 이하를 지원하기 위해서는 대신 getAttribute()를 통해 데이터 속성을 접근해야 합니다. 또한, JS 데이터 저장소에 저장하는 것과 비교해서 데이터 속성 읽기의 성능은 저조합니다.
+   -->
+   <input type="time">
+   <input type="datetime">
+   <style>
+     details{
+       border: 1px solid red;
+       color: blue;
+       list-style: none;
+       
+     }
+     blockquote{
+       display: block;
+     }
+   </style>
 
+    <details>
+      <summary>hello</summary>
+      <p>world</p>
+    </details>
+
+    
+   <input type="text" autocomplete='off' autofocus>
   <script>
   
   </script>
