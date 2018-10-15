@@ -2,7 +2,6 @@
 
 |태그|설명|
 |:--------|:--------|
-|ㄹ|ㄹ|ㄹ|ㄹ|ㄹ|ㄹ|
 |`<br>`|줄바꿈 기능이 있는 홑태그 (line break)|
 |`<p>`|문단을 나누고 한줄의 여백을 띄어줌, text-align 으로 문단정렬을 처리 (paragraph)|
 |`<pre> `|문서 내용에 편집되어있는 모든 여백, 탭, 줄바꿈 등을 모양 그대로 화면에 보여줌|
@@ -46,9 +45,59 @@
 |`<audio>`| 재생 안될시 대체 텍스트(생략가능)<br>*src - 오디오파일 경로 설정<br>*autoplay - 자동 재생 기능<br>*controls - 컨트롤 바 표시<br>*loop - 반복 재생 기능|
 |`<source>`|만약 브라우저에서 해당 확장자를 지원하지 않을 시 준비해 둔 다른 확장자의 오디오 실행<br>*src - 오디오파일 경로 설정<br>*type - 오디오 파일의 타입 지정 (audio/ogg , audio/mp3 등...)|
 |`<embed>`|비디오/오디오/플래시 파일 등 플러그인이 설치된 또는 필요한 멀티미디어 파일을 재생<br>*src - 파일 경로 설정<br>*type - 비디오 파일의 타입 지정<br>*width, height - 가로/세로 길이 지정|
-
-
-
+|`<area>`||
+|`<article>`||
+|`<aside>`||
+|`<base>`||
+|`<bdl>`||
+|`<bdo>`||
+|`<caption>`||
+|`<code>`||
+|`<col>`||
+|`<colgroup>`||
+|`<dfn>`||
+|`<fieldset>`||
+|`<figcaption>`||
+|`<figure>`||
+|`<footer>`||
+|`<form>`||
+|`<header>`||
+|`<ins>`||
+|`<iframe>`||
+|`<kbd>`||
+|`<label>`||
+|`<legend>`||
+|`<link>`||
+|`<main>`||
+|`<map>`||
+|`<meta>`||
+|`<nav>`||
+|`<noscript>`||
+|`<object>`||
+|`<optgroup>`||
+|`<option>`||
+|`<output>`||
+|`<param>`||
+|`<picture>`||
+|`<progress>`||
+|`<q>`||
+|`<rp>`||
+|`<rt>`||
+|`<ruby>`||
+|`<s>`||
+|`<samp>`||
+|`<section>`||
+|`<select>`||
+|`<small>`||
+|`<strong> `||
+|`<template>`||
+|`<textarea>`||
+|`<title>`||
+|`<thead>`||
+|`<tfoot>`||
+|`<u>`||
+|`<var>`||
+|`<wbr>`||
 
 # SCSS Document
 
