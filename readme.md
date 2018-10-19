@@ -165,9 +165,28 @@ after, Node JS, Express, Ejs
 
 <hr>
 
-### FRONT-END Curriculum 
+### FRONT-END Curriculum (Textbook: Learning JavaScript, Inside JavaScript)
 
 <hr>
+
+#### 1달
+
++ 1주차
+  + 오리엔 테이션,수업의 방향성, 수업 방식에 대한 설명, 레벨 테스트 진행 예정, js생태계의 이해
+  + 레벨테스트 확인 분석, 콘솔 사용법, 주석처리, 변수 선언, 경고창 띄워보기, 프롬프트 이용
+    + 숙제 : 
++ 2주차
+  + .
+  + .
+    + 숙제 : 
++ 3주차
+  + .
+  + .
+    + 숙제 : 
++ 4주차
+  + .
+  + .
+    + 숙제 : 
 
 
 
