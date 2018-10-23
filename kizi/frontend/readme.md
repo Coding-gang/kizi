@@ -22,8 +22,10 @@
 
 
 
-
 <br>
+
+## Front end Developer로써의 성장 방향.
+
  어느날 우연히 Quora에서 프론트엔드 엔지니어링과 스타트업에 관련된 “Why is it that startups have trouble finding front end developers? (왜 스타트업에서 프론트엔드 개발자를 구하기가 어려운가?)”라는 글을 보게 되었다. 발제자는 다음과 같은 내용도 덧붙였다.
 <br>
 
