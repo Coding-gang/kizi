@@ -46,23 +46,22 @@
 |`<source>`|만약 브라우저에서 해당 확장자를 지원하지 않을 시 준비해 둔 다른 확장자의 오디오 실행<br>*src - 오디오파일 경로 설정<br>*type - 오디오 파일의 타입 지정 (audio/ogg , audio/mp3 등...)|
 |`<embed>`|비디오/오디오/플래시 파일 등 플러그인이 설치된 또는 필요한 멀티미디어 파일을 재생<br>*src - 파일 경로 설정<br>*type - 비디오 파일의 타입 지정<br>*width, height - 가로/세로 길이 지정|
 |`<area>`||
-|`<article>`||
-|`<aside>`||
-|`<base>`||
-|`<bdl>`||
-|`<bdo>`||
-|`<caption>`||
-|`<code>`||
-|`<col>`||
-|`<colgroup>`||
-|`<dfn>`||
-|`<fieldset>`||
-|`<figcaption>`||
-|`<figure>`||
-|`<footer>`||
-|`<form>`||
-|`<header>`||
-|`<ins>`||
+|`<article>`|`<article>` 태그는 독립적 인 독립 컨텐츠를 지정합니다. 기사는 독자적으로 이해해야하며 나머지 사이트와 독립적으로 기사를 배포 할 수 있어야함<br>`<article>` 요소에 대한 잠재적 인 출처 :<br>포럼 게시물<br>블로그 게시물<br>뉴스 기사<br>논평<br>|
+|`<aside>`|`<aside>` 태그는 배치 된 내용을 제외하고 일부 내용을 정의, aside는 섹션으로 사용하는게 일반적이며, body내의 섹션과 분리되어 includes 하게 사용할 수 있게 하는것이 핵심. 또한 aside를 때냈을떄 기존 레이아웃이 무너지지 않으면 쵝오!|
+|`<base>`|`<base>` 태그는 문서의 모든 상대 URL에 대한 기본 URL / 대상을 설정, 문서에는 최대 하나의 `<base>` 요소가있을 수 있으며 `<head>` 요소 내에 있어야함|
+|`<bdo>`|bdo는 Bi-Directional Override를 표현,`<bdo>` 태그는 현재 텍스트 방향을 덮어 쓰는 데 사용됨|
+|`<caption>`|`<caption>` 태그는 테이블 캡션을 정의<br>`<caption>` 태그는 `<table>` 태그 바로 뒤에 삽입<br>표 당 하나의 캡션 만 지정할 수 있습니다.<br>`<figcation`이 없던 떄에는 `<caption>`태그를 대체해서 사용했었다고 전해짐>|
+|`<code>`|<code> 태그는 구문 태그입니다. 그것은 컴퓨터 코드를 정의|
+|`<col>`|`<col>` 태그는 `<colgroup>` 요소 내의 각 열에 대한 열 속성을 지정 .|
+|`<colgroup>`|`<colgroup>` 태그는 `<caption>` 요소 다음에 `<thead>`, `<tbody>`, `<tfoot>` 및 `<tr>` 요소 앞에 `<table>` 요소의 하위 항목이어야함.|
+|`<dfn>`|용어를 정의할떄 사용함. ex `<p><dfn>`HTML`</dfn>` is the standard markup language for creating web pages.`</p>`<br>`<dfn> 태그의 가장 가까운 부모는 <dfn> 내부 용어에 대한 정의` / 설명을 포함해야합니다.|
+|`<fieldset>`|`<fieldset>` 태그는 양식의 관련 요소를 그룹화하는 데 사용함`<fieldset>` 태그는 관련 요소 주위에 상자를 그림, legend태그로 상자의 제목을 설정|
+|`<figcaption>`|`figure태그로 마크업된 사진의 제목을 나타냄`|
+|`<figure>`|`<figure>` 요소를 사용하여 문서의 사진을 마크 업함|
+|`<footer>`|`<footer> 태그는 문서 또는 섹션의 바닥 글을 정의`|
+|`<form>`|`<form> 태그는 사용자 입력을위한 HTML 양식을 만드는 데 사용`<br>Action <br>autocomplete<br>accept-charset<br>enctype<br>method<br>name<br>novalidate<br>target|
+|`<header>`|`<header> 요소는 소개 내용 또는 탐색 링크 모음을위한 컨테이너를 나타냄 하나의 문서에 여러 개의 <header> 요소를 포함 할 수 있음`|
+|`<ins>`|`<ins> 태그는 문서에 삽입 된 텍스트를 정의`|
 |`<iframe>`||
 |`<kbd>`||
 |`<label>`||
@@ -97,7 +96,7 @@
 |`<tfoot>`||
 |`<u>`||
 |`<var>`||
-|`<wbr>`||
+|`<wbr>`|단어가 너무 길거나 브라우저가 잘못된 위치에서 줄 바꿈을 두려워하는 경우 <wbr> 요소를 사용하여 단어 나누기 기회를 추가 할 수 있음. HTML의 br형|
 
 # SCSS Document
 
