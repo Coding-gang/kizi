@@ -63,20 +63,20 @@
 |`<header>`|`<header> 요소는 소개 내용 또는 탐색 링크 모음을위한 컨테이너를 나타냄 하나의 문서에 여러 개의 <header> 요소를 포함 할 수 있음`|
 |`<ins>`|`<ins> 태그는 문서에 삽입 된 텍스트를 정의`|
 |`<iframe>`||
-|`<kbd>`||
-|`<label>`||
-|`<legend>`||
-|`<link>`||
-|`<main>`||
-|`<map>`||
-|`<meta>`||
-|`<nav>`||
-|`<noscript>`||
-|`<object>`||
-|`<optgroup>`||
-|`<option>`||
-|`<output>`||
-|`<param>`||
+|`<kbd>`|`<kbd> 태그는 구문 태그입니다. 키보드 입력을 정의 ctrl+1 이런것`|
+|`<label>`|`<label> 태그는 <button>, <input>, <meter>, <output>, <progress>, <select> 또는 <textarea> 요소에 대한 레이블을 정의`<br>`<label> 태그의 for 속성은 관련 요소를 묶는 관련 요소의 id 속성과 동일해야함` <br>for<br>label|
+|`<legend>`|`<legend> 태그는 <fieldset> 요소에 대한 캡션을 정의`|
+|`<link>`|`<link> 태그는 문서와 외부 리소스 간의 링크를 정의`|
+|`<main>`|`<main> 태그는 문서의 주요 내용을 지정,  문서에 하나 이상의 <main> 요소가 없어야함`|
+|`<map>`|`<map> 태그는 클라이언트 측 이미지 맵을 정의하는 데 사용됩니다. 이미지 맵은 클릭 가능한 영역이있는 이미지, <map> 요소의 필수 name 속성은 <img>의 usemap 속성과 연관되어 있으며 이미지와 맵 사이에 관계를 만듬, <map> 요소 는 이미지 맵에서 클릭 가능한 영역을 정의 하는 여러 <area> 요소를 포함`|
+|`<meta>`|`<meta> 태그는 HTML 문서에 대한 메타 데이터를 제공합니다. 메타 데이터는 페이지에 표시되지 않지만 구문 분석이 가능`|
+|`<nav>`|`<nav> 태그는 일련의 탐색 링크를 정의`|
+|`<noscript>`|`<noscript> 태그는 브라우저에서 스크립트를 비활성화했거나 스크립트를 지원하지 않는 브라우저를 가지고있는 사용자를위한 대체 컨텐츠를 정의`|
+|`<object>`|`<object> 태그는 HTML 문서에 포함 된 객체를 정의합니다. 이 요소를 사용하여 오디오, 비디오, Java 애플릿, ActiveX, PDF 및 Flash와 같은 멀티미디어를 웹 페이지에 포함 할 수 있음, <object> 태그를 사용하여 다른 웹 페이지를 HTML 문서에 포함 할 수도 있음`|
+|`<optgroup>`|`<optgroup>은 관련 옵션을 드롭 다운 목록에 그룹화하는 데 사용`|
+|`<option>`|`<option> 태그는 선택 목록에서 옵션을 정의, <option> 요소는 <select> 또는 <datalist> 요소 안에 있음`|
+|`<output>`|`<output> 태그는 계산 결과 (예 : 스크립트에 의해 수행 된 것)를 나타냄` [참고](https://www.w3schools.com/tags/tag_output.asp)|
+|`<param>`|`<param> 태그는 <object> 요소로 삽입 된 플러그인의 매개 변수를 정의하는 데 사용`|
 |`<picture>`||
 |`<progress>`||
 |`<q>`||
