@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= sendTitle %></h1>
+    <p>Get start!</p>
+    <form action="/sam/form" method="POST" id="tForm">
+      <input type="text" name="test">
+      <button type="submit">버튼</button>
+    </form>
+    <button type="submit" form="tForm" formaction="/sam/form/f" >전송</button>
+
+    <button type="submit" form="tForm" formaction="/sam/form/angel">전송A</button>
+
+
+
+  </body>
+</html>

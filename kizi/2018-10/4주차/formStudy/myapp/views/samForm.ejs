@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <style>
+    button{
+      cursor: pointer;
+    }
+    .yes{
+      color: rgb(0, 255, 34);
+    }
+  </style>
+  <body>
+    <h1><%= success %> 
+      <% if(result =='yes') {%> 
+        <span class="yes"><%= yes %></span>
+      <% } else {%>
+        ?
+      <% } %>
+      </h1>
+
+    <p>Your Data: <%= receiveData.samname %></p>
+    <button form="resultForm" type="submit" value="yes" name="answer">Yes!</button>
+    <form action="/sam/form" hidden id="resultForm"></form>
+    
+   <p><a href="/">메인 페이지로 이동!</a></p>
+  
+  </body>
+</html>
