@@ -1,5 +1,7 @@
 # 키지의 개인 과외
 
+[![CircleCI](https://camo.githubusercontent.com/4814093bbca735b71a1ca3fd95dcd376452e7ac6/68747470733a2f2f636972636c6563692e636f6d2f67682f636f736d6f732f766f79616765722e7376673f7374796c653d737667)](abnc) [![codecov](https://camo.githubusercontent.com/d74498d98622c09390ff0d7c621e9839eac9b7d0/68747470733a2f2f636f6465636f762e696f2f67682f636f736d6f732f766f79616765722f6272616e63682f646576656c6f702f67726170682f62616467652e737667)](abc)
+
 ## Motivation
 중고급 Front-end Developer로의 성장을 위해 핵심적인 Publishing 능력과, Javascript, 웹 생태계를 보다 깊게 파악하는것이 중요 핵심. 또, 학원생들과 보다 차별 적인 학습과, 코드에 대한 고찰과 반복학습으로 Code Review를 통한 실력 향상에 입각한 개인 과외입니다.
 
@@ -17,7 +19,7 @@
 10. Vscode IDE or Editor 
 ```
 ## Members
-   
+
 + Kizi, SamE
 
 
@@ -35,6 +37,44 @@ after, Node JS, Express, Ejs
 + i18n
 
 ## Process Status
+
+**1달**
+
+| Date               | Link                                                         | Default | PurPose |
+| ------------------ | ------------------------------------------------------------ | ------- | ------- |
+| 1주차 html 시험    |                                                              |         |         |
+| 2주차 html 시험    | [링크](https://docs.google.com/spreadsheets/d/1G8dxWoL4SDAEbJwl7juh7Lcw236EIY8RsX_SbDtntCc/edit#gid=2057394383) |         |         |
+| 3주차 html,css시험 | [링크](https://docs.google.com/spreadsheets/d/1YsAKBMNc08L6FhRDc3LzT4udtEGICo3_zJoxXjfXNus/edit#gid=0) |         |         |
+| 4주차 html시험     |                                                              |         |         |
+
+**2달**
+
+| Date | Link | Default | PurPose |
+| ---- | ---- | ------- | ------- |
+|      |      |         |         |
+|      |      |         |         |
+|      |      |         |         |
+|      |      |         |         |
+
+**3달**
+
+| Date | Link | Default | PurPose |
+| ---- | ---- | ------- | ------- |
+|      |      |         |         |
+|      |      |         |         |
+|      |      |         |         |
+|      |      |         |         |
+
+**4달**
+
+| Date | Link | Default | PurPose |
+| ---- | ---- | ------- | ------- |
+|      |      |         |         |
+|      |      |         |         |
+|      |      |         |         |
+|      |      |         |         |
+
+
 
 ### Publisher Curriculum 
 
@@ -92,7 +132,7 @@ after, Node JS, Express, Ejs
 + 4주차
   + css 속성 시험,form 실제 데이터 전송 시험- 다뤄보기, html 태그시험, 반응형 페이지 코딩 시험. 총 숙제 같이 리딩, 
   + npm 다뤄보기, npm 이용하여 scss 만들어보기, css를 이용한 클릭구현, css 를 이용한 메뉴구현, 슬라이드 구현
-    + 숙제= 간단한 scss 문법을 이용하여 페이지 코딩 2개(css 메뉴, 슬라이드 포함, 반응형), html 태그 암기, css 속성암기.
+    + 숙제= 간단한 scss 문법을 이용하여 페이지 코딩 2개(css 메뉴, 슬라이드 포함, 반응형), html 태그 암기, css 속성암기. [셀렉터사용해보기](http://webclub.tistory.com/254)
 
 >매달 4주차떄 시험을 보아 결과물들을 달마다 비교합니다! 성장이 있는지!
 <hr>
@@ -105,18 +145,18 @@ after, Node JS, Express, Ejs
     + 숙제 = 제이쿼리 api 암기. 제이쿼리 이용하여 애니메이션 만들어보기. 라이브러리와 제이쿼리를 사용하여 간단한 페이지 만들어보기.
 
 + 2주차
-  + form 데이터 컨트롤 시험(문제를 랜덤으로 내줄거임 시간제한 시험), 
+  + form 데이터 컨트롤 시험(문제를 랜덤으로 내줄거임 시간제한 시험),  제이쿼리 api시험
   + npm 이용하여 scss 붙혀보기, scss의 기본 문법, scss 이용하여 간단한 코딩. scss 파일 스트럭쳐
   + scss 이용하여 반응형 홈페이지 만들어보기, 배웠던 HTML속성 이용하여 반응형 홈페이지 만들기. 같이 HTML리팩토링, SCSS 분석하기,  scss 문법 훑어보기,
   포켓몬 숙제 리딩, 반응형 숙제 리딩, 반응형 홈페이지 리팩토링, html 리팩토링, scss 리팩토링, scss 파일  스트럭쳐, 
     + 숙제: scss 를 이용하여 페이지코딩, 코딩 후 리팩토링 해보기, 
 
 + 3주차
-  + 확장성 있는 메뉴와 푸터.
-  + .
-    + 숙제=
+  + FTP페이지 코딩, 포트폴리오 페이지 만들기, scss문법, 문법 사용해보기, html 리팩토링 해보기, 확장성 있는 메뉴와 푸터., 제이쿼리, scss 사용하여 페이지 코딩
+  + 1달,2달떄 헷갈렸단것들 리뷰, 재설명, 복습, 제이쿼리
+    + 숙제=scss, 제이쿼리 이용하여 페이지 코딩
 + 4주차
-  + .
+  + 페이지 코딩하면서 리팩토링, 코드리뷰,
   + .
   + 숙제 = scss 이용하여 반응형 페이지 코딩(html 속성 반드시 이용) 2개
 <hr>
@@ -198,7 +238,7 @@ after, Node JS, Express, Ejs
 
 ## Installation
 ```js
-git clone or Download https://github.com/Phantom05/sam.git
+$git clone or Download https://github.com/Phantom05/sam.git
 ```
 
 ## API Reference
