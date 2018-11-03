@@ -1,0 +1,6 @@
+@mixin test($w,$h,$bgc,$mg) {
+  width: $w;
+  height: $h;
+  background: $bgc;
+  margin: $mg;
+}
