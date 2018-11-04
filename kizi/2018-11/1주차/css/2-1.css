@@ -1,3 +1,6 @@
+body {
+  padding-bottom: 130px; }
+
 .col-xs-4 {
   border: 1px solid blue; }
 
@@ -7,18 +10,69 @@
 .col-md-4 {
   border: 1px solid orange; }
 
-.ggg, .aaa {
+.col-xs-12 {
+  border: 1px solid purple; }
+
+.col-lg-6 {
+  border: 1px solid red; }
+
+.col-md-12 {
+  border: 1px solid powderblue; }
+
+.extendBox, .tar__exBox {
   width: 100px;
   height: 100px;
   background: #c10000; }
 
-.ccc {
+.bgRd {
+  background: red !important; }
+
+.oddBox {
   width: 20px;
   height: 20px;
   background: blue;
   margin: 0; }
-  .ccc > .c1 {
+  .oddBox > .c1 {
     width: 20px;
     height: 20px;
     background: orange;
     margin: 15px; }
+
+.tar-test {
+  opacity: 1;
+  background: black;
+  color: #c10000;
+  margin-top: 200px;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s; }
+
+.hover-fadeOut-fast:hover {
+  opacity: 0;
+  transition: 0.3s; }
+
+.hover-fadeIn-slow:hover {
+  opacity: 0;
+  transition: 1s; }
+
+.par:hover > div[class="son2"] {
+  transition: .2s;
+  font-size: 20px;
+  color: red; }
+
+.par .son {
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s; }
+
+.par2:hover .son2_1 {
+  transition: .5s;
+  font-size: 20px;
+  color: purple;
+  background: black; }
+
+.par2 .son2_1 {
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s; }

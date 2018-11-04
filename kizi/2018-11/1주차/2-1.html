@@ -22,24 +22,26 @@
 
       <!-- row -->
       <div class="row">
-        <div class="col-xs-4">
-          hello
-        </div>
-        <div class="col-xs-4">
-          world
-        </div>
-        <div class="col-xs-4">
-          world
-        </div>
+        <div class="col-xs-4">hello</div>
+        <div class="col-xs-4">world</div>
+        <div class="col-xs-4">Programming</div>
+      </div>
+      <!-- row -->
+
+      <!-- row -->
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 col-lg-2">.col-xs-6 .col-sm-4</div>
+        <div class="col-xs-6 col-sm-4 col-lg-2">.col-xs-6 .col-sm-4</div>
+        <!-- <div class="clearfix visible-xs-block"></div> -->
+        <div class="col-xs-12 col-sm-4 col-lg-2">.col-xs-12 .col-sm-4</div>
+        <div class="col-md-12 col-lg-6">.col-md-12 .col-lg-6</div>
       </div>
       <!-- row -->
 
       <!-- row -->
       <div class="row">
         <div class="col-sm-5 col-md-6">heheh</div>
-        <div class="col-sm-5 col-sm-offset-2 col-md-6 col-md-offset-0">
-          hehe
-        </div>
+        <div class="col-sm-5 col-sm-offset-2 col-md-6 col-md-offset-0">hehe</div>
       </div>
       <!-- row -->
 
@@ -72,16 +74,39 @@
 
       <!-- row -->
       <div class="row">
-        <div class="col-md-4">.col-md-4</div>
-        <div class="col-md-4">.col-md-4</div>
-        <div class="col-md-4">.col-md-4</div>
+        <div class="col-md-4">dobule row .col-md-4
+          <!-- double row -->
+          <div class="row">
+            <div class="col-md-6 col-lg-12">hello double row</div>
+            <div class="col-md-6 col-lg-12">hello double row</div>
+          </div>
+          <!-- double row -->
+        </div>
+
+        <div class="col-md-4">dobule row .col-md-4
+          <!-- double row -->
+          <div class="row">
+            <div class="col-md-6 col-lg-12">hello double row</div>
+            <div class="col-md-6 col-lg-12">hello double row</div>
+          </div>
+          <!-- double row -->
+        </div>
+
+        <div class="col-md-4">dobule row .col-md-4
+          <!-- double row -->
+          <div class="row">
+            <div class="col-md-6 col-lg-12">hello double row</div>
+            <div class="col-md-6 col-lg-12">hello double row</div>
+          </div>
+          <!-- double row -->
+        </div>
       </div>
       <!-- row -->
 
-      <div class="ggg"></div>
-      <div class="aaa"></div>
-      <div class="ccc">
-        <div class="c1"></div>
+      <div class="extendBox"></div>
+      <div class="tar__exBox"></div>
+      <div class="oddBox">
+        <div class="c1" title="hello"></div>
         <div class="c1"></div>
         <div class="c1"></div>
         <div class="c1"></div>
@@ -89,13 +114,38 @@
       </div>
 
     </div>
+
+    <!-- mixin extend case1-->
+    <div class="tar-test hover-fadeOut-fast">헤헤</div>
+
+    <!-- mixin extend case2 -->
+    <div class="par"> 안녕?
+      <div class="son">반가워1</div>
+      <div class="son">반가워2</div>
+      <div class="son">반가워3</div>
+      <div class="son2">반가워4</div>
+    </div>
+
+    <!-- mixin extend case3 -->
+    <div class="par2">그동안
+      <div class="son2_1">고생했어1</div>
+      <div class="son2_1">고생했어2</div>
+      <div class="son2_1">고생했어3</div>
+      <div class="son2_1">고생했어4</div>
+      <div class="son2_2">고생했어5</div>
+    </div>
+
   </div>
 
-
-
-  <!-- lib -->
-
-  <!-- lib -->
+  <script>
+    // jQuery는 인덱스 0 부터 시작.
+    $(document).ready(function () {
+      $('.c1[title]').fadeOut(2000);
+      $('.c1[title]').delay(2000).fadeIn(2000);
+      $('.c1:odd').addClass('bgRd')
+      console.log($('.c1[title]'))
+    })
+  </script>
 </body>
 
 </html>

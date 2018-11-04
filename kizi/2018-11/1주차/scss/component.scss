@@ -4,3 +4,33 @@
   background: $bgc;
   margin: $mg;
 }
+
+@mixin hover-fadeIn($c){
+  &:hover{
+    opacity: 0;
+    transition: $c;
+  }
+}
+
+@mixin hover-fadeOut($c){
+  &:hover{
+    opacity: 0;
+    transition: $c;
+  }
+}
+
+@mixin slickAni($c){
+  &:hover > div[class="son2"]{
+    transition: .2s;
+    font-size: 20px;
+    color: $c;
+  }
+}
+@mixin slickAni2($c,$t){
+  &:hover .#{$t}{
+    transition: .5s;
+    font-size: 20px;
+    color: $c;
+    background: black;
+  }
+}
