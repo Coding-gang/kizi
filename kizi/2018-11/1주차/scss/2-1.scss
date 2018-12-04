@@ -89,3 +89,10 @@ body {
     transition: .5s;
   }
 }
+
+q{
+  display: block;
+}
+q::first-letter{
+  font-size: 20px;
+}

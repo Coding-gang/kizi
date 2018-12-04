@@ -76,3 +76,9 @@ body {
   -webkit-transition: .5s;
   -o-transition: .5s;
   transition: .5s; }
+
+q {
+  display: block; }
+
+q::first-letter {
+  font-size: 20px; }
