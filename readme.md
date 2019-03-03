@@ -49,10 +49,22 @@ Javascript, Node JS, Express, Ejs ,Bootstrap, jQuery, 시멘틱 ui, Mysql, React
 ### FRONT-END Curriculum (Textbook: Learning JavaScript, Inside JavaScript) - (Proceeding)
 
 <hr>
+`Curriculum stage`
+
+<kbd>W3C and Kizi Toy Project</kbd> => <kbd>Book Front-End-Lecture</kbd>
+
+**Toy Project Table**
+
+| 프로젝트리스트 |               |                 |                         |
+| -------------- | ------------- | --------------- | ----------------------- |
+| 구구단         | 로그인        | 회원가입        | 타이머, 주말알림 타이머 |
+| 야구게임       | 끝말 잇기     | 시장에 가면     | 과일 재료 확인 프로그램 |
+| 투두리스트     | 로또 프로그램 | 보고서 프로그램 | 쇼핑 뉴스 박스          |
+| 랜덤 박스      | 계산기 함수   | 거스름돈 계산기 | 커피 주문 프로그램      |
+
+
 
 #### 1달
-
-<kbd>Toy Project</kbd>
 
 
 > **1 주차**
@@ -84,8 +96,6 @@ Javascript, Node JS, Express, Ejs ,Bootstrap, jQuery, 시멘틱 ui, Mysql, React
 + 25.Number method 보기, toString, toFixed, parseInt, parseFloat, NaN, isNaN
 + 26.배열, forEach, join, splice, concat, slice, reverce
 
-
-
 > **3주차**
 + Array method(forEach, join, split, splice, slice, concat, reverse)
 + Array(map, filter, every, some, reduce, reduceRight, indexOf)
@@ -99,6 +109,10 @@ Javascript, Node JS, Express, Ejs ,Bootstrap, jQuery, 시멘틱 ui, Mysql, React
 + error
 + scope 개념, hoisting 개념
 + use strict, this사용법
+
+
+
+###  2달
 
 > **5주차**
 
@@ -118,7 +132,6 @@ Javascript, Node JS, Express, Ejs ,Bootstrap, jQuery, 시멘틱 ui, Mysql, React
 + 거스름돈 계산기 만들어보기
 
 
-> **
 
 
 
@@ -126,7 +139,13 @@ Javascript, Node JS, Express, Ejs ,Bootstrap, jQuery, 시멘틱 ui, Mysql, React
 
 
 
-## Process Status (success !)
+
+
+
+
+# Publisher Curriculum (success !)
+
+## Process Status 
 
 **1달**
 
@@ -137,7 +156,7 @@ Javascript, Node JS, Express, Ejs ,Bootstrap, jQuery, 시멘틱 ui, Mysql, React
 | 3주차 html,css시험 | [링크](https://docs.google.com/spreadsheets/d/1YsAKBMNc08L6FhRDc3LzT4udtEGICo3_zJoxXjfXNus/edit#gid=0) |         |         |
 | 4주차 html시험     |                                                              |         |         |
 
-### Publisher Curriculum 
+
 
 #### 1달
 
