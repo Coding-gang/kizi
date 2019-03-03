@@ -49,9 +49,9 @@ Javascript, Node JS, Express, Ejs ,Bootstrap, jQuery, 시멘틱 ui, Mysql, React
 ### FRONT-END Curriculum (Textbook: Learning JavaScript, Inside JavaScript) - (Proceeding)
 
 <hr>
-`Curriculum stage`
+```Curriculum stage```
 
-<kbd>W3C and Kizi Toy Project</kbd> => <kbd>Book Front-End-Lecture</kbd>
+<kbd>W3C and Kizi 16 Toy Project</kbd> => <kbd>Book Front-End-Lecture</kbd>
 
 **Toy Project Table**
 
@@ -130,6 +130,14 @@ Javascript, Node JS, Express, Ejs ,Bootstrap, jQuery, 시멘틱 ui, Mysql, React
 > **8주차**
 + 계산기 함수 만들기
 + 거스름돈 계산기 만들어보기
+
+
+
+### 3달
+
+> 9주차
+
++ 모던 자바스크립트 입문 - 1 ~ 4장 (객체와 배열, 함수의 기초 까지)
 
 
 
