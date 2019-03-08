@@ -139,6 +139,7 @@ Javascript, Node JS, Express, Ejs ,Bootstrap, jQuery, 시멘틱 ui, Mysql, React
 
 + 모던 자바스크립트 입문 - 1 ~ 4장 (객체와 배열, 함수의 기초 까지)
 
++ 진도나가다가 중간중간 시험보기, 되짚기, 질문하기.
 
 
 
