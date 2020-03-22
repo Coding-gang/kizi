@@ -1,4 +1,4 @@
-# 키지의 개인 과외
+# 개인 과외
 
 [![CircleCI](https://camo.githubusercontent.com/4814093bbca735b71a1ca3fd95dcd376452e7ac6/68747470733a2f2f636972636c6563692e636f6d2f67682f636f736d6f732f766f79616765722e7376673f7374796c653d737667)](abnc) [![codecov](https://camo.githubusercontent.com/d74498d98622c09390ff0d7c621e9839eac9b7d0/68747470733a2f2f636f6465636f762e696f2f67682f636f736d6f732f766f79616765722f6272616e63682f646576656c6f702f67726170682f62616467652e737667)](abc)
 
@@ -48,8 +48,8 @@ Javascript, Node JS, Express, Ejs ,Bootstrap, jQuery, 시멘틱 ui, Mysql, React
 
 ### FRONT-END Curriculum (Textbook: Learning JavaScript, Inside JavaScript) - (Proceeding)
 
-<hr>
-```Curriculum stage```
+`Curriculum stage`
+
 
 <kbd>W3C and Kizi 16 Toy Project</kbd> => <kbd>Book Front-End-Lecture</kbd>
 
